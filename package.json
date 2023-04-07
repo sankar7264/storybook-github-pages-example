@@ -1,0 +1,14 @@
+{
+  "homepage": "http://sankar7264.github.io/storybook-github-pages-example",
+
+  "scripts": {
+    "predeploy": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static",
+    "build-storybook": "build-storybook"
+  },
+
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
+
